@@ -1,0 +1,62 @@
+taxdict = {
+    "sales_tax": {
+        "combined": 0.095,
+        "details": "Includes 6% state rate, 1% county rate, and 2.5% local rate"
+    },
+    "property_tax": {
+        "rate": 0.0081,
+        "assessment_basis": "of assessed property value",
+        "notes": "varies based on local assessments"
+    },
+    "federal_income_tax": {
+        "brackets_2025": {
+            "single": {
+                "10%": {"min": 0, "max": 11925},
+                "12%": {"min": 11926, "max": 48475},
+                "22%": {"min": 48476, "max": 103350},
+                "24%": {"min": 103351, "max": 197300},
+                "32%": {"min": 197301, "max": 250525},
+                "35%": {"min": 250526, "max": 626350},
+                "37%": {"min": 626351, "max": "above"}
+            },
+            "married_jointly": {
+                "10%": {"min": 0, "max": 23850},
+                "12%": {"min": 23851, "max": 96950},
+                "22%": {"min": 96951, "max": 206700},
+                "24%": {"min": 206701, "max": 394600},
+                "32%": {"min": 394601, "max": 501050},
+                "35%": {"min": 501051, "max": 751600},
+                "37%": {"min": 751601, "max": "above"}
+            },
+            "head_of_household": {
+                "10%": {"min": 0, "max": 17000},
+                "12%": {"min": 17001, "max": 64850},
+                "22%": {"min": 64851, "max": 103350},
+                "24%": {"min": 103351, "max": 197300},
+                "32%": {"min": 197301, "max": 250500},
+                "35%": {"min": 250501, "max": 626350},
+                "37%": {"min": 626351, "max": "above"}
+            }
+        }
+    },
+    "state_income_tax": {
+        "brackets_2023": {
+            "single": {
+                "9.3%": {"min": 0, "max": 9350},
+                "10.3%": {"min": 9351, "max": 22733},
+                "11.3%": {"min": 22734, "max": 34692},
+                "13.3%": {"min": 34693, "max": "above"}
+            },
+            "married_jointly": {
+                "9.3%": {"min": 0, "max": 18700},
+                "10.3%": {"min": 18701, "max": 45467},
+                "11.3%": {"min": 45468, "max": 69384},
+                "13.3%": {"min": 69385, "max": "above"}
+            }
+        }
+    },
+    "other_taxes": {
+        "social_security_tax": "6.2% on the first $137,700 of earnings (federal)",
+        "medicare_tax": "1.45% on all earnings (federal)"
+    }
+}

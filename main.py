@@ -13,6 +13,8 @@ You are a helpful assitant for providing accurate information about taxes in the
 Give the information in the form of a converstation as opposed to a table.
 I need this data to be readable for another LLM to look at.
 No citations or descriptions.
+It is most important that you include the state and federal taxes, as well as any local taxes.
+It is important to include all of the different tax brakets and rates.
 If there are didfferent rates for different incocme levels, include that and make sure it is explicitly stated what the rate is at each level.
 Don't fuck it up.
 """
@@ -23,6 +25,19 @@ You are a tool form covnerting written responses describing taxes in certain cit
 You dont have to make every dictionary exactly the same, as some cities have different taxes, but they should keep the same structure.
 The variable for a dictionary must be "taxdict".
 DO NOT GIVE ANY OUTPUT OTHER THAN THE DICTIONARY OR I WILL BE EXTREMELY ANGRY!!!!
+
+Note that the input may not always contain the federal tax rates. it is important that you include them.
+For note, here is the current federal tax rates and brackets for 2025;
+
+For the 2025 tax year, the federal income tax rates remain the same as in previous years, with seven rates: 10%, 12%, 22%, 24%, 32%, 35%, and 37%. The income ranges for each of these brackets, however, have been adjusted for inflation. Here's how the tax brackets are structured for single filers, married couples filing jointly, and heads of households:
+
+10% rate applies to income from $0 to $11,925 for single filers, $0 to $23,850 for married couples filing jointly, and $0 to $17,000 for heads of households.
+12% rate applies to income from $11,926 to $48,475 for single filers, $23,851 to $96,950 for married couples filing jointly, and $17,001 to $64,850 for heads of households.
+22% rate applies to income from $48,476 to $103,350 for single filers, $96,951 to $206,700 for married couples filing jointly, and $64,851 to $103,350 for heads of households.
+24% rate applies to income from $103,351 to $197,300 for single filers, $206,701 to $394,600 for married couples filing jointly, and $103,351 to $197,300 for heads of households.
+32% rate applies to income from $197,301 to $250,525 for single filers, $394,601 to $501,050 for married couples filing jointly, and $197,301 to $250,500 for heads of households.
+35% rate applies to income from $250,526 to $626,350 for single filers, $501,051 to $751,600 for married couples filing jointly, and $250,501 to $626,350 for heads of households.
+37% rate applies to income of $626,351 or more for single filers, $751,601 or more for married couples filing jointly, and $626,351 or more for heads of households  IRS  US Bank.
 
 Here is an exmaple input and output.
 
@@ -83,7 +98,6 @@ These taxes encompass the primary local, state, and federal taxes applicable to 
 
 
 //////////////////////////////////////////////////////////////////////////
-
 
 
 
@@ -156,6 +170,8 @@ async def slow_accurate_llm(city_name):
     Include all taxes, not just thigns specific to the city. I need it for the state and federal taxes.
     Display it in a table.
     It should include all taxes relative to a nurse in the city.
+    Federal and state taxes should be included with their brackets and rates.
+    The users could be married or single, so include both brackets.
     Inclue all of the information, even the things which are the same in every state.
     No citations or descriptions please.
     """
@@ -177,7 +193,9 @@ async def slow_accurate_llm(city_name):
             temperature=0,
             messages=conversation
         )
-    completion.choices[0].message.content
+    response = completion.choices[0].message.content
+    print(response)
+    return response
 
 
 async def fast_data_converter_llm(diffy_output):

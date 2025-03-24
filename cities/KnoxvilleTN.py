@@ -1,6 +1,6 @@
 taxdict = {
     "federal_income_tax": {
-        "single": {
+        "brackets_2023_single": {
             "10%": {"min": 0, "max": 11000},
             "12%": {"min": 11001, "max": 44725},
             "22%": {"min": 44726, "max": 95375},
@@ -9,7 +9,7 @@ taxdict = {
             "35%": {"min": 231251, "max": 578125},
             "37%": {"min": 578126, "max": "above"}
         },
-        "married_jointly": {
+        "brackets_2023_married_jointly": {
             "10%": {"min": 0, "max": 22000},
             "12%": {"min": 22001, "max": 89450},
             "22%": {"min": 89451, "max": 190750},
@@ -20,20 +20,20 @@ taxdict = {
         }
     },
     "state_income_tax": {
-        "brackets": {
-            "9.3%": {"min": 0, "max": 9350},
-            "10.3%": {"min": 9351, "max": 22733},
-            "11.3%": {"min": 22734, "max": 34392},
-            "12.3%": {"min": 34393, "max": 46359},
-            "13.3%": {"min": 46360, "max": "above"}
-        }
+        "hall_income_tax": "1% on certain investments"
     },
     "local_taxes": {
-        "sales_tax": 0.095,
-        "property_tax": "0.008-0.012"
+        "sales_tax": {
+            "rate": 0.0925,
+            "details": "includes 7% state rate and 2.25% local rate"
+        },
+        "property_tax": {
+            "effective_rate": 0.0064,
+            "details": "Varies depending on assessed value of property"
+        }
     },
     "other_taxes": {
-        "social_security_tax": "6.2%",
-        "medicare_tax": "1.45%"
+        "social_security_tax": "6.2% for employees",
+        "medicare_tax": "1.45% for employees"
     }
 }
