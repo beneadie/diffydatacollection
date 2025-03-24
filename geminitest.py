@@ -153,7 +153,7 @@ def gemini_format(real_data):
 
 
      # Configure the API key
-     genai.configure(api_key="AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A")
+     genai.configure(api_key="your api key")
 
      # Initialize the Gemini model
      model = genai.GenerativeModel("gemini-2.0-flash-lite")
