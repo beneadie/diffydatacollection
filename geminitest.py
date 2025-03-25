@@ -1,5 +1,6 @@
 import google.generativeai as genai
 
+gemini_api_key = "AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A"
 
 define_agent = """
 You are a tool form covnerting written responses describing taxes in certain cities and making them into python dictionaries.
@@ -153,7 +154,7 @@ def gemini_format(real_data):
 
 
      # Configure the API key
-     genai.configure(api_key="AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A")
+     genai.configure(api_key=gemini_api_key)
 
      # Initialize the Gemini model
      model = genai.GenerativeModel("gemini-2.0-flash-lite")

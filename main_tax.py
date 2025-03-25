@@ -7,6 +7,8 @@ from openai import OpenAI
 import cities
 import os
 
+gemini_api_key = "AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A"
+
 
 define_diffy = """
 You are a helpful assitant for providing accurate information about taxes in the US.
@@ -212,7 +214,7 @@ async def fast_data_converter_llm(diffy_output):
 
 
     # Configure the API key
-    genai.configure(api_key="AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A")
+    genai.configure(api_key=gemini_api_key)
 
     # Initialize the Gemini model
     model = genai.GenerativeModel("gemini-2.0-flash-lite")
