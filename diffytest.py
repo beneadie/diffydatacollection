@@ -2,7 +2,7 @@ from openai import OpenAI
 
 
 client = OpenAI(
-        base_url="https://llm.diffbot.com/rag/v1",
+        base_url="your api key",
         api_key="a3b011f40fde0a5331edecd0f7bd9874"
     )
 

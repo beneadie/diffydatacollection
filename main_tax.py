@@ -181,7 +181,7 @@ async def slow_accurate_llm(city_name):
 
     client = OpenAI(
         base_url="https://llm.diffbot.com/rag/v1",
-        api_key="a3b011f40fde0a5331edecd0f7bd9874"
+        api_key="your api key"
     )
 
     conversation = [{'role': "system", 'content': define_diffy}]
@@ -214,6 +214,7 @@ async def fast_data_converter_llm(diffy_output):
 
 
     # Configure the API key
+    genai.configure(api_key="your api key")
     genai.configure(api_key=gemini_api_key)
 
     # Initialize the Gemini model
