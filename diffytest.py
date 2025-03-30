@@ -1,9 +1,12 @@
 from openai import OpenAI
 
+from dotenv import load_dotenv
+load_dotenv()
+diffy_key = os.getenv("DIFFY_KEY")
 
 client = OpenAI(
-        base_url="your api key",
-        api_key="a3b011f40fde0a5331edecd0f7bd9874"
+        base_url="https://llm.diffbot.com/rag/v1",
+        api_key=diffy_key
     )
 
 

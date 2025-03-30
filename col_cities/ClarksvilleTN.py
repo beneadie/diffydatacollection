@@ -1,29 +1,17 @@
 col_dict = {
-    "average_income": {
-        "median_household_income": 66786
-    },
+    "average_income": "n/a",
     "housing_costs": {
-        "apartments": {
-            "average_rent": 1090,
-            "rent_by_size": {
-                "studio": 915,
-                "one_bedroom": 1090,
-                "two_bedroom": 1231,
-                "three_bedroom": 1492
-            }
-        },
-        "houses": {
-            "average_rent": 1650
-        }
+        "average_rent_apartment": 1269,
+        "average_rent_house": 1650
     },
     "food_costs": {
-        "eggs_2": 0.40,
+        "eggs_two": 0.40,
         "steak_1lb_sirloin": 10.69,
         "milk_1gal": 3.96,
         "beer": "n/a"
     },
-    "gym_membership": "n/a",
-    "public_transportation": "n/a",
-    "gasoline_per_gallon": "n/a",
-    "average_meal_price": "n/a"
+    "dining_out": {"min": 10.00, "max": 15.00},
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": {"min": 2.00, "max": 5.00},
+    "gasoline_per_gallon": 2.75
 }

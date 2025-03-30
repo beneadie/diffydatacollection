@@ -1,14 +1,13 @@
 col_dict = {
     "average_income": {
-        "median_household_income": 81740
+        "median_household_income": 74632
     },
     "housing_costs": {
-        "average_rent": 952,
         "rent_by_size": {
             "studio": 873,
             "one_bedroom": 952,
             "two_bedroom": 1145,
-            "three_bedroom": 1459
+            "three_bedroom": 1458
         }
     },
     "food_costs": {
@@ -20,11 +19,9 @@ col_dict = {
     "gym_membership": "n/a",
     "public_transportation": "n/a",
     "gasoline_per_gallon": "n/a",
-    "average_meal_price": {
-        "very_inexpensive": "<25",
-        "inexpensive": "25-50",
-        "moderate": "50-75",
-        "expensive": "75-100",
-        "very_expensive": "100+"
+    "average_meal_price": "n/a",
+    "overall_cost_of_living": {
+        "relative_to_national_average": -9.6,
+        "housing_relative_to_national_average": -13.2
     }
 }

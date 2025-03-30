@@ -4,15 +4,19 @@ col_dict = {
     },
     "housing_costs": {
         "average_rent_apartment": 1687,
-        "average_rent_house": "n/a"
+        "average_rent_house": 1995
     },
     "food_costs": {
-        "eggs_dozen": 2.52,
-        "steak_1lb_sirloin": 10.69,
-        "milk_1gal": 3.96
+        "eggs_regular": 1.34,
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
     },
-    "gym_membership": "n/a",
-    "public_transportation": "n/a",
+    "gym_membership": {
+        "planet_fitness_black_card": 24.99,
+        "planet_fitness_classic": 15.00
+    },
+    "public_transportation": 1.75,
     "gasoline_per_gallon": "n/a",
     "average_meal_price": "n/a"
 }

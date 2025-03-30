@@ -1,14 +1,15 @@
 col_dict = {
     "average_income": {
-        "median_household_income": 78889,
-        "per_capita_income": 34348
+        "average_salary": "n/a",
+        "median_salary": "n/a"
     },
     "housing_costs": {
-        "average_rent": 1515
+        "average_rent": 1515,
+        "rent_by_size": "n/a"
     },
     "food_costs": {
-        "eggs": "n/a",
-        "steak": "n/a",
+        "eggs": 0.40,
+        "steak_1lb_sirloin": 10.69,
         "milk_1gal": 3.96,
         "beer": "n/a"
     },

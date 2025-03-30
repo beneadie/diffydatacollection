@@ -1,6 +1,9 @@
 import google.generativeai as genai
 
-gemini_api_key = "AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+gemini_api_key = os.getenv("GEMINI_KEY")
 
 define_agent = """
 You are a tool form covnerting written responses describing taxes in certain cities and making them into python dictionaries.

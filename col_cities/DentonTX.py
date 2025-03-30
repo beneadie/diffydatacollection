@@ -3,23 +3,16 @@ col_dict = {
         "median_household_income": 73719
     },
     "housing_costs": {
-        "average_rent": 1585,
-        "rent_by_size": "n/a",
-        "most_affordable_neighborhoods": {
-            "owsley_park": 1053
-        },
-        "most_expensive_neighborhoods": {
-            "the_retreat_at_denton": 2726
-        }
+        "average_rent_apartment": 1585
     },
     "food_costs": {
-        "eggs_dozen": "n/a",
-        "steak_1lb_ribeye": "n/a",
-        "milk_1gal": "n/a",
-        "beer_6pack": "n/a"
+        "eggs_2": 0.40,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
     },
+    "beer": "n/a",
     "gym_membership": "n/a",
     "public_transportation": "n/a",
-    "gasoline_per_gallon": "n/a",
+    "gasoline": "n/a",
     "average_meal_price": "n/a"
 }

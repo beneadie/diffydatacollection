@@ -1,29 +1,21 @@
 col_dict = {
     "average_income": {
-        "median_household_income": 161300
+        "average_household_income": 208947,
+        "median_household_income": 149551
     },
     "housing_costs": {
-        "average_rent": 2729,
-        "rent_by_size": {
-            "studio": 2153,
-            "one_bedroom": 2470,
-            "three_bedroom": 3063
-        }
+        "average_rent": 3048,
     },
     "food_costs": {
-        "eggs_dozen": 2.52,
-        "steak_sirloin_per_lb": 10.69,
-        "milk_1gal": 3.96,
-        "beer_average_price": "n/a"
+        "eggs_dozen": {"min": 6.00, "max": "n/a"},
+        "steak": {"min": "n/a", "max": "n/a"},
+        "milk": {"min": "n/a", "max": "n/a"},
+        "beer": {"min": "n/a", "max": "n/a"}
     },
     "dining_out": {
-        "casual_meal": {"min": 15, "max": 30},
-        "mid_range_meal": {"min": 40, "max": 60}
+        "average_meal_price": "n/a"
     },
-    "gym_membership": {
-        "PRO Club senior membership": 125,
-        "PRO Club primary membership": 240
-    },
-    "public_transportation": 2.50,
-    "gasoline_per_gallon": 4.79
+    "gym_membership": 240.00,
+    "public_transportation": 1.50,
+    "gasoline_per_gallon": 5.31
 }

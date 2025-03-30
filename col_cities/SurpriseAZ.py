@@ -5,20 +5,20 @@ col_dict = {
     "housing_costs": {
         "average_rent_apartment": 1738,
         "average_rent_house": 2100,
-        "house_rent_range_min": 850,
-        "house_rent_range_max": 7500
+        "rent_house_range": {
+            "min": 850,
+            "max": 7500
+        }
     },
     "food_costs": {
-        "eggs_dozen": 13.00,
+        "eggs_dozen": {"max": 13.00},
         "steak": "n/a",
         "milk": "n/a",
         "beer": "n/a"
     },
-    "gym_membership": 15.00,
-    "public_transportation": {
-        "local_1_ride_full_fare": 2.00,
-        "local_1_ride_reduced_fare": 1.00
-    },
-    "gasoline": "n/a",
-    "average_meal_price": "n/a"
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a",
+    "overall_cost_of_living": "3% higher than the national average"
 }

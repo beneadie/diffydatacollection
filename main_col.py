@@ -6,8 +6,12 @@ from openai import OpenAI
 
 import cities
 import os
+import json
 
-gemini_api_key = "AIzaSyAZcNOIoakrQvnPF0uPlJSUq5rtnzeKv1A"
+from dotenv import load_dotenv
+load_dotenv()
+diffy_key = os.getenv("DIFFY_KEY")
+gemini_api_key = os.getenv("GEMINI_KEY")
 
 
 define_diffy = """
@@ -24,8 +28,9 @@ define_gemini = """
 You are a tool form converting written responses describing the cost of in certain cities and making them into python dictionaries.
 Try to be consistent keep the same structure when you can, although there may be situations where the example structure won't capture all of the information.
 If you are not given the required information, put that field value as "n/a"
-The variable for a dictionary must be "col_dict".
-DO NOT GIVE ANY OUTPUT OTHER THAN THE DICTIONARY OR I WILL BE EXTREMELY ANGRY!!!!
+The variable for a dictionary must be the the name of the city with nospaces or special characters, followed by the state abbreviation in capitals. eg OaklandCA, NewYorkNY, WashingtonDC, MiamiFL, ElPasoTX.
+The name of the dictionary will be given to you.DO NOT GIVE ANY OUTPUT OTHER THAN THE DICTIONARY OR I WILL BE EXTREMELY ANGRY!!!!
+
 
 input;
 
@@ -62,14 +67,14 @@ The cost of living in **New York, NY** is notably high compared to other parts o
 
 These figures provide a comprehensive view of the expenses associated with living in New York City, helping you plan your budget accordingly.
 
+Name dictionary variable 'MemphisTN'
+
 //////////////////////////////////////////////////////////////////////////
-
-
 
 
 output;
 
-'col_dict = {
+'MemphisTN = {
     "average_income": {
         "average_salary": 98196,
         "median_salary": 68891
@@ -105,44 +110,73 @@ async def remove_non_alpha(input_string):
             result += char
     return result
 
+#async def process_data_with_llms(inputs, slow_accurate_llm, fast_data_converter_llm, batch_size=4):
+#    """Processes inputs in batches."""
+#    for i in range(0, len(inputs), batch_size):
+#        batch = inputs[i:i + batch_size]
+#        tasks = [process_single_input(city, slow_accurate_llm, fast_data_converter_llm) for city in batch]
+#        await asyncio.gather(*tasks)
+
+#async def process_data_with_llms(inputs, slow_accurate_llm, fast_data_converter_llm, concurrent_tasks=4):
+#    """Processes inputs concurrently with a specified number of tasks."""
+#    semaphore = asyncio.Semaphore(concurrent_tasks)
+#    async def process_with_semaphore(input_data):
+#        async with semaphore:
+#            await process_single_input(input_data)
+#    tasks = [process_with_semaphore(input_data) for input_data in inputs]
+#    await asyncio.gather(*tasks)
 
 async def process_data_with_llms(inputs, slow_accurate_llm, fast_data_converter_llm):
-
-    async def process_single_input(city_name):
-        """Processes a single input."""
-        print(f"Processing {city_name}")
-        try:
-            diffy_output = await slow_accurate_llm(city_name)
-            gemini_output = await fast_data_converter_llm(diffy_output)
-            clean_gemini_output = gemini_output.replace("```python", "").replace("```", "").strip()
-            await create_and_write_city_file(f"{await remove_non_alpha(city_name)}.py", clean_gemini_output)
-            #return gemini_output
-        except Exception as e:
-            print(f"Error processing input {city_name}: {e}")
-            return None
-
+    """Processes inputs concurrently using asyncio.gather."""
     tasks = [process_single_input(input_data) for input_data in inputs]
-    results = await asyncio.gather(*tasks)
-    return results
+    await asyncio.gather(*tasks)
+
+async def process_single_input(city_name):
+    print(f"Processing {city_name}")
+    city_code = await remove_non_alpha(city_name)
+    try:
+        diffy_output = await slow_accurate_llm(city_name)
+        gemini_output = await fast_data_converter_llm(diffy_output, city_code)
+        clean_gemini_output = gemini_output.replace("```python", "").replace("```", "").strip()
+        await append_string_dictionary_to_file(clean_gemini_output)
+    except Exception as e:
+        print(f"Error processing input {city_name}: {e}")
+        return None
+
+#async def process_single_input(city_name):
+#    """Processes a single input."""
+#    print(f"Processing {city_name}")
+#    city_code = await remove_non_alpha(city_name)
+#    try:
+#        diffy_output = await slow_accurate_llm(city_name)
+#        gemini_output = await fast_data_converter_llm(diffy_output, city_code)
+#        clean_gemini_output = gemini_output.replace("```python", "").replace("```", "").strip()
+#        await append_string_dictionary_to_file(clean_gemini_output)
+#        #return gemini_output
+#    except Exception as e:
+#        print(f"Error processing input {city_name}: {e}")
+#        return None
+#
+#    tasks = [process_single_input(input_data) for input_data in inputs]
+#    results = await asyncio.gather(*tasks)
+#    return results
 
 async def slow_accurate_llm(city_name):
+    print(f"slow running {city_name}")
     input_prompt = f"""
     give me a detailed description of the cost of living in {city_name}.
     it should include average income, average rent for an apartment, average rent for a house, cost of common foods (include eggs, steak, milk, beer), cost of gym membership, cost of public transport, cost of gasoline.
     try make it detialed, include the cost of the average meal at a restaurant separate to the foods list.
     give the repsonse in natural language."""
 
+
     client = OpenAI(
         base_url="https://llm.diffbot.com/rag/v1",
-        api_key="a3b011f40fde0a5331edecd0f7bd9874"
+        api_key=diffy_key #"your api key for diffychat"
     )
 
     conversation = [{'role': "system", 'content': define_diffy}]
     conversation.append({'role': 'user', 'content': input_prompt})
-
-
-
-
     completion = client.chat.completions.create(
             model="diffbot-small-xl",
             temperature=0,
@@ -153,25 +187,20 @@ async def slow_accurate_llm(city_name):
     return response
 
 
-async def fast_data_converter_llm(diffy_output):
+async def fast_data_converter_llm(diffy_output, city_code):
+
+    diffy_output += f"\n\nName dictionary variable {city_code}"
     conversation = [{'role': "system", 'content': define_gemini}]
-
-
     conversation.append({"role": 'user', "content": diffy_output})
-
     # Format the conversation into a single prompt
     prompt = "\n".join([f"{msg['role']}: {msg['content']}" for msg in conversation])
-
     # Add the latest user message
     prompt += "\nmodel:"
-
-
     # Configure the API key
+    #genai.configure(api_key="your api key")
     genai.configure(api_key=gemini_api_key)
-
     # Initialize the Gemini model
     model = genai.GenerativeModel("gemini-2.0-flash-lite")
-
     # Generate content with streaming
     #print("Generating content...")
     response = model.generate_content(prompt, stream=False)
@@ -179,28 +208,82 @@ async def fast_data_converter_llm(diffy_output):
     return response.text
 
 
-async def create_and_write_city_file(filename, content):
+#async def create_and_write_city_file(filename, content):
+#
+#    folder_name = "cities"
+#
+#    # Create the 'cities' folder if it doesn't exist.
+#    if not os.path.exists(folder_name):
+#        os.makedirs(folder_name)
+#
+#    # Construct the full file path.
+#    file_path = os.path.join(folder_name, filename)
+#
+#    # Write the content to the file.
+#    try:
+#        with open(file_path, "w") as f:
+#            f.write(content)
+#        print(f"File '{filename}' created successfully in '{folder_name}'.")
+#    except OSError as e:
+#        print(f"Error creating file '{filename}': {e}")
 
-    folder_name = "col_cities"
 
-    # Create the 'cities' folder if it doesn't exist.
+async def append_string_dictionary_to_file(dictionary_string):
+    """
+    Appends a dictionary (in string form) to a .txt file, each dictionary on a new line.
+    """
+
+    filename = "col_dicts.txt"  # Changed to .txt
+    folder_name = "cities_data"
+
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
-    # Construct the full file path.
     file_path = os.path.join(folder_name, filename)
 
-    # Write the content to the file.
     try:
-        with open(file_path, "w") as f:
-            f.write(content)
-        print(f"File '{filename}' created successfully in '{folder_name}'.")
-    except OSError as e:
-        print(f"Error creating file '{filename}': {e}")
+        # Format the dictionary as a string for writing to the .txt file.
+        dictionary_str = dictionary_string + "\n\n"  # Add newline for each dictionary
 
+        with open(file_path, "a") as f: #append mode
+            f.write(dictionary_str)
+
+        print(f"Dictionary appended to '{filename}' successfully in '{folder_name}'.")
+
+    except OSError as os_error:
+        print(f"Error appending to file '{filename}': {os_error}")
+    except TypeError as type_error:
+        print(f"Error, invalid dictionary string: {type_error}")
 
 async def main():
-    results = await process_data_with_llms(cities.list_cities, slow_accurate_llm, fast_data_converter_llm)
+    results = await process_data_with_llms(cities.cities_col, slow_accurate_llm, fast_data_converter_llm)
+
+def finalize_txt_to_py(folder_name="cities_data", txt_filename="col_dicts.txt", py_filename="col_dicts.py"):
+    """
+    Converts the .txt file to a .py file by adding brackets and renaming.
+    """
+    txt_path = os.path.join(folder_name, txt_filename)
+    py_path = os.path.join(folder_name, py_filename)
+
+    try:
+        with open(txt_path, "r+") as f:
+            content = f.read()
+            #Remove the last comma and newline if the file is not empty.
+            if len(content) > 0:
+              content = content[:-2]
+            content += "\n]" #add the closing bracket for a list.
+            f.seek(0)
+            f.write(content)
+            f.truncate()
+
+        os.rename(txt_path, py_path)
+        print(f"File '{txt_filename}' renamed to '{py_filename}'.")
+
+    except OSError as e:
+        print(f"Error finalizing file: {e}")
 
 if __name__ == "__main__":
     asyncio.run(main())
+    finalize_txt_to_py()
+
+

@@ -3,11 +3,17 @@ col_dict = {
         "median_income": 71513
     },
     "housing_costs": {
-        "average_rent_apartment": 1531,
-        "average_rent_house": 2470
+        "average_rent": 1306,
+        "rent_by_size": {
+            "studio": 1278,
+            "one_bedroom": 1306,
+            "two_bedroom": 1639,
+            "three_bedroom": 2018
+        },
+        "average_house_rent": 2470
     },
     "food_costs": {
-        "eggs_dozen": 6.00,
+        "eggs_dozen": 5.90,
         "steak": "n/a",
         "milk": "n/a",
         "beer": "n/a"

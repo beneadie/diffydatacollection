@@ -1,7 +1,7 @@
 col_dict = {
     "average_income": {
-        "average_salary": "n/a",
-        "median_salary": "n/a"
+        "needed_per_year": 41280,
+        "needed_per_month": 3440
     },
     "housing_costs": {
         "average_rent": 1032,
@@ -13,13 +13,14 @@ col_dict = {
         }
     },
     "food_costs": {
-        "eggs": 0.40,
-        "steak": 10.69,
-        "milk_1gal": 3.96,
-        "beer": "n/a"
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 8.00, "max": 12.00},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 10.00, "max": 15.00}
     },
-    "gym_membership": "n/a",
-    "public_transportation": "n/a",
-    "gasoline_per_gallon": "n/a",
-    "average_meal_price": "n/a"
+    "gym_membership": {"min": 20.00, "max": 30.00},
+    "public_transportation_per_ride": 1.50,
+    "public_transportation_monthly_pass": {"min": 30, "max":40},
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00},
+    "average_meal_price_restaurant": {"min": 15.00, "max": 25.00}
 }

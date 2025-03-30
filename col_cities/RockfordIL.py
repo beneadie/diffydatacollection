@@ -12,9 +12,11 @@ col_dict = {
         "milk_1gal": 2.69,
         "beer_6pack": 8.25
     },
-    "dining_out_average": 12.00,
+    "dining_out": 12.00,
     "gym_membership": 28.25,
-    "public_transportation_per_ride": 1.50,
-    "public_transportation_monthly_pass": 45.00,
+    "public_transportation": {
+        "per_ride": 1.50,
+        "monthly_pass": 45.00
+    },
     "gasoline_per_gallon": 2.75
 }

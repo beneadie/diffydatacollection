@@ -1,19 +1,16 @@
 col_dict = {
-    "average_income": 78137,
+    "average_income": {
+        "median_income": 40509
+    },
     "housing_costs": {
-        "apartments": {
-            "studio": 1656,
-            "one_bedroom": 1815,
-            "two_bedroom": 2090
-        },
-        "houses": 2605
+        "average_rent": 2120,
+        "rent_sq_ft": 1088,
     },
     "food_costs": {
         "eggs_dozen": 4.49,
         "steak_1lb": 7.66,
         "milk_1gal": 4.55,
-        "domestic_beer_1_pint_draught": 6.50,
-        "imported_beer_12oz_bottle": 7.00
+        "domestic_beer_1pint": 6.50
     },
     "dining_out": {
         "meal_inexpensive_restaurant": 20.00,

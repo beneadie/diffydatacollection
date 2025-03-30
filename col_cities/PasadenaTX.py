@@ -4,18 +4,14 @@ col_dict = {
         "median_salary": "n/a"
     },
     "housing_costs": {
-        "average_rent_apartment": 1105,
-        "average_rent_house": 1600,
-        "rent_by_neighborhood": {
-            "Golden Acres": 968,
-            "Fairmont": 1515
-        }
+        "average_rent": 1105,
+        "average_rent_house": 1600
     },
     "food_costs": {
-        "eggs_dozen": 6.00,
+        "eggs_2": 0.40,
         "steak_1lb_sirloin": 10.69,
         "milk_1gal": 3.96,
-        "beer_6pack": "n/a"
+        "beer": "n/a"
     },
     "gym_membership": "n/a",
     "public_transportation": "n/a",
