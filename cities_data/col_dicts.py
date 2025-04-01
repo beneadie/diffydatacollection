@@ -4932,3 +4932,2075 @@ SimiValleyCA = {
     "average_meal_price": "n/a"
 }
 
+AllentownPA = {
+    "average_income": 44700,
+    "housing_costs": {
+        "average_rent_apartment": 1300,
+        "average_rent_house": {"min": 1600, "max": 2000}
+    },
+    "food_costs": {
+        "eggs_dozen": 1.80,
+        "steak_1lb": 8.00,
+        "milk_1gal": 2.50,
+        "beer_6pack": 8.00
+    },
+    "dining_out_average_meal": 15.00,
+    "gym_membership": {"min": 30.00, "max": 50.00},
+    "public_transportation_monthly_pass": 60.00,
+    "gasoline_per_gallon": 2.75
+}
+
+WestPalmBeachFL = {
+    "average_income": 43692,
+    "housing_costs": {
+        "average_rent": 2401
+    },
+    "food_costs": {
+        "eggs_dozen": 4.52,
+        "milk_1gal": 3.92,
+        "steak_1lb_ribeye": "n/a",
+        "beer_1liter": "n/a"
+    },
+    "gym_membership": 31.25,
+    "public_transportation": 70.00,
+    "gasoline_per_gallon": 3.10,
+    "average_meal_price": 15.00
+}
+
+ThousandOaksCA = {
+    "average_income": {
+        "median_household_income": 134367
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2907,
+        "average_rent_house": 3995
+    },
+    "food_costs": {
+        "eggs_12": {"min": 3.00, "max": 8.00},
+        "steak_1lb": {"min": 4.00, "max": 15.00},
+        "milk_1gal": {"min": 3.00, "max": 6.00},
+        "beer_1pint_draught": {"min": 4.50, "max": 12.00}
+    },
+    "dining_out": {
+        "meal_for_2_people": {"min": 60.00, "max": 175.00}
+    },
+    "gym_membership": 66.92,
+    "public_transportation": {
+        "one_way_ticket": {"min": 2.00, "max": 3.50},
+        "monthly_pass": 50.00
+    },
+    "gasoline_per_gallon": {"min": 4.35, "max": 5.99}
+}
+
+VallejoCA = {
+    "average_income": {
+        "median_household_income": 47030,
+        "median_male_income": 40132,
+        "median_female_income": 32129
+    },
+    "housing_costs": {
+        "average_rent": 2102
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+WilmingtonNC = {
+    "average_income": {
+        "average_salary": 50335,
+        "hourly_wage": 24.20
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1620,
+        "average_rent_house": 1900
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": {
+        "very_expensive": "100+",
+        "expensive": "75-100",
+        "moderate": "50-75",
+        "inexpensive": "25-50",
+        "very_inexpensive": "Under 25"
+    }
+}
+
+RochesterMN = {
+    "average_income": {
+        "median_household_income": 87767
+    },
+    "housing_costs": {
+        "average_apartment_rent": 1601,
+        "average_house_rent": 2000
+    },
+    "food_costs": {
+        "eggs_two": {"min": 0.40, "max": 0.40},
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+ConcordCA = {
+    "average_income": {
+        "median_household_income": 109195,
+        "per_capita_income": 49514
+    },
+    "housing_costs": {
+        "average_rent": 2319,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_per_pound": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+LakelandFL = {
+    "average_income": "n/a",
+    "housing_costs": {
+        "average_rent": 1530,
+        "rent_by_neighborhood": {
+            "Downtown Lakeland": 1913,
+            "Webster Park North": 1158
+        }
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": {
+        "min": 30.00,
+        "average": {"min": 40.00, "max": 60.00}
+    },
+    "public_transportation": {
+        "single_ride": 2.00,
+        "monthly_pass": 40.00
+    },
+    "gasoline_per_gallon": 3.25,
+    "average_meal_price": {"min": 15.00, "max": 30.00}
+}
+
+NorthCharlestonSC = {
+    "average_income": {
+        "median_income": 36719
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1556,
+        "rent_by_size": {
+            "one_bedroom": 1358,
+            "two_bedroom": 1666
+        },
+        "average_rent_house": 2290
+    },
+    "food_costs": {
+        "eggs_dozen": 8.79,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+LafayetteLA = {
+    "average_income": {
+        "median_household_income": 67660
+    },
+    "housing_costs": {
+        "average_rent_apartments": 1007,
+        "rent_by_size": {
+            "studio": 707,
+            "one_bedroom": 1007,
+            "two_bedroom": 1155,
+            "three_bedroom": 1519
+        },
+        "average_rent_houses": {"min": 500, "max": 4000}
+    },
+    "food_costs": {
+        "eggs_dozen": 4.20,
+        "steak_1lb_beef_round": 6.73,
+        "milk_1gal": 3.00,
+        "beer_pint_domestic": 4.00
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": 17.00,
+        "meal_mid_range_restaurant_two": 76.11,
+        "mcmeal_mcdonalds": 10.00
+    },
+    "gym_membership": {
+        "planet_fitness_classic": 15.00,
+        "planet_fitness_classic_no_commitment": 20.00,
+        "planet_fitness_black_card": 24.99
+    },
+    "public_transportation": {
+        "one_way_ticket": 1.00,
+        "day_pass": 3.00,
+        "12_ride_pass": 10.00
+    },
+    "gasoline_per_gallon": 2.91
+}
+
+ArvadaCO = {
+    "average_income": 76000,
+    "housing_costs": {
+        "average_rent_apartment": 1600,
+        "average_rent_house": 2200
+    },
+    "food_costs": {
+        "eggs_dozen": 1.80,
+        "steak_1lb_ribeye": 11.00,
+        "milk_1gal": 2.50,
+        "beer_6pack": 9.00
+    },
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": {
+        "local_fare": 3.00,
+        "regional_fare": 5.50,
+        "monthly_pass": 114.00
+    },
+    "gasoline_per_gallon": 3.20,
+    "average_meal_price": {"min": 15.00, "max": 25.00}
+}
+
+IndependenceMO = {
+    "average_income": {
+        "median_household_income": 50797,
+        "male_median_income": 40007,
+        "female_median_income": 26762
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1128,
+        "rent_by_neighborhood": {
+            "south_crysler": 892,
+            "highland_manor": 1357
+        },
+        "average_rent_house": 1450
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline": "n/a",
+    "average_meal_price": "n/a",
+    "additional_insights": {
+        "average_household_size": 2.4,
+        "average_family_size": 3.1,
+        "population_density_per_square_mile": 1577.7
+    }
+}
+
+BillingsMT = {
+    "average_income": {
+        "n/a": "n/a"
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1401,
+        "average_rent_house": 1895
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+FairfieldCA = {
+    "average_income": {
+        "average_household_income": 103721
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2194,
+        "average_rent_house": {
+            "min": 800,
+            "max": 12000,
+            "average": 2300
+        }
+    },
+    "food_costs": "n/a",
+    "dining_out": "n/a",
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 6.675
+}
+
+HartfordCT = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": 1600,
+        "average_rent_house": 1930
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak_1lb": {"min": 15.00, "max": 25.00},
+        "milk_1gal": {"min": 3.00, "max": 4.00},
+        "beer_6pack": {"min": 10.00, "max": 15.00}
+    },
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": 63.00,
+    "gasoline_per_gallon": {"min": 3.00, "max": 4.00},
+    "average_meal_price": {"min": 15.00, "max": 30.00}
+}
+
+AnnArborMI = {
+    "average_income": {
+        "median_household_income": 81089
+    },
+    "housing_costs": {
+        "average_rent": 2053,
+        "rent_by_neighborhood": {
+            "Clinton-George": 1370,
+            "Burns Park": 5173
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+BrokenArrowOK = {
+    "average_income": 83500,
+    "housing_costs": {
+        "average_rent_apartment": {
+            "one_bedroom": {"min": 700, "max": 900},
+            "three_bedroom": {"min": 1100, "max": 1400}
+        },
+        "average_rent_house": {
+            "three_bedroom": {"min": 1300, "max": 1800},
+            "four_bedroom": {"min": 1600, "max": 2500}
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 8.00, "max": 12.00},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8.00, "max": 10.00}
+    },
+    "dining_out_price": {"min": 15.00, "max": 25.00},
+    "transportation": {
+        "gym_membership": {"min": 30, "max": 50},
+        "public_transportation_per_ride": {"min": 2, "max": 3},
+        "public_transportation_monthly_pass": {"min": 40, "max": 60},
+        "gasoline_per_gallon": {"min": 2.50, "max": 3.00}
+    }
+}
+
+BerkeleyCA = {
+    "average_income": {
+        "median_household_income": 98086
+    },
+    "housing_costs": {
+        "average_rent": 2895,
+        "rent_by_size": {
+            "one_bedroom": 2245,
+            "two_bedroom": 3220
+        },
+        "average_rent_house": 3560
+    },
+    "food_costs": {
+        "eggs_2": 0.40,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "dining_out": 4,
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 4.50,
+    "gym_membership": "n/a",
+    "average_meal_price": "n/a"
+}
+
+CambridgeMA = {
+    "average_income": 83000,
+    "housing_costs": {
+        "average_rent_apartment_1_bedroom": 2500,
+        "average_rent_apartment_3_bedroom": 4000,
+        "average_rent_house_3_bedroom": 6000
+    },
+    "food_costs": {
+        "eggs_dozen": 3.50,
+        "steak_1lb": 15.00,
+        "milk_1gal": 3.50,
+        "beer_6pack": {"min": 10.00, "max": 15.00}
+    },
+    "dining_out_average_meal": {
+        "mid_range_restaurant": 20,
+        "upscale_restaurant": 50
+    },
+    "gym_membership": {"min": 60.00, "max": 150.00},
+    "public_transportation_monthly_pass": 90.00,
+    "gasoline_per_gallon": 3.00
+}
+
+RichardsonTX = {
+    "average_income": {
+        "median_household_income": 96257
+    },
+    "housing_costs": {
+        "average_rent": 1707
+    },
+    "food_costs": {
+        "eggs_dozen": 3.76,
+        "steak_1lb_ribeye": 7.90,
+        "milk_1gal": 3.51,
+        "domestic_beer_1pint": 7.00
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": 20.00,
+        "meal_for_2_mid_range": 75.00,
+        "mcmeal_mcdonalds": 12.00
+    },
+    "gym_membership": 19.99,
+    "public_transportation": {
+        "one_way_ticket": 3.00,
+        "monthly_pass": 91.00
+    },
+    "gasoline_per_gallon": 3.00
+}
+
+AntiochCA = {
+    "average_income": {
+        "median_household_income": 94256
+    },
+    "housing_costs": {
+        "average_rent": 2167,
+        "average_rent_house": {"min": 750, "max": 7000, "average": 2450}
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+HighPointNC = {
+    "average_income": {
+        "median_household_income": 61228
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1216,
+        "average_rent_house": 1613
+    },
+    "food_costs": {
+        "eggs_dozen": 4.15,
+        "milk_1gal": 3.40,
+        "steak": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": 58.00,
+    "public_transportation": 1.25,
+    "gasoline_per_gallon": 2.65,
+    "average_meal_price": "n/a"
+}
+
+ClearwaterFL = {
+    "average_income": {
+        "median_household_income": 50335
+    },
+    "housing_costs": {
+        "average_rent": 1893,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+PuebloCO = {
+    "average_income": 55305,
+    "housing_costs": {
+        "average_rent_apartment": 980,
+        "rent_by_size": {
+            "studio": 795,
+            "one_bedroom": 980,
+            "two_bedroom": 1191,
+            "three_bedroom": 1430
+        },
+        "average_rent_house": {"min": 550, "max": 5500, "average": 1300}
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": {
+        "very_expensive": "over $100",
+        "expensive": "75 - $100",
+        "moderate": "50 - $75",
+        "inexpensive": "25 - $50",
+        "very_inexpensive": "under $25"
+    }
+}
+
+PompanoBeachFL = {
+    "average_income": {
+        "median_household_income": 63832
+    },
+    "housing_costs": {
+        "average_rent": 2243,
+        "rent_by_neighborhood": {
+            "Old Pompano": 2698
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+SpringfieldIL = {
+    "average_income": {
+        "median_income": 39388
+    },
+    "housing_costs": {
+        "average_rent": {
+            "one_bedroom": 822,
+            "studio": 772,
+            "two_bedroom": 992
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_sirloin_per_lb": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": 54.00,
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+LowellMA = {
+    "average_income": 54759,
+    "housing_costs": {
+        "average_rent_apartment": 1834,
+        "average_rent_house": 2300
+    },
+    "food_costs": {
+        "eggs_dozen": 1.73,
+        "steak_1lb": 7.38,
+        "milk_1gal": 2.69,
+        "beer_6pack": 8.75
+    },
+    "dining_out": 15.00,
+    "gym_membership": 35.00,
+    "public_transportation": 90.00,
+    "gasoline_per_gallon": 2.85
+}
+
+WestCovinaCA = {
+    "average_income": {
+        "median_household_income": 98570
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2392,
+        "average_rent_house": 2950
+    },
+    "food_costs": {
+        "eggs_dozen": "n/a",
+        "steak_1lb_ribeye": "n/a",
+        "milk_1gal": "n/a",
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 4.69,
+    "average_meal_price": "n/a"
+}
+
+EriePA = {
+    "average_income": {
+        "median_household_income": 43397
+    },
+    "housing_costs": {
+        "average_rent": 900,
+        "rent_by_size": {
+            "one_bedroom": 925,
+            "two_bedroom": 1147
+        },
+        "average_rent_house": 1575
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+CentennialCO = {
+    "average_income": {
+        "average_household_income": 128167
+    },
+    "housing_costs": {
+        "average_rent": 1985,
+        "house_rent": "n/a"
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": {
+        "individual": 37,
+        "household": 64
+    },
+    "public_transportation": 2.75,
+    "gasoline_per_gallon": 3.09,
+    "average_meal_price": "n/a"
+}
+
+NorwalkCA = {
+    "average_income": {
+        "median_household_income": 98709
+    },
+    "housing_costs": {
+        "average_rent": 2280,
+        "house_rent": {
+            "min": 1450,
+            "max": 9200,
+            "average": 2495
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": {
+        "min": 30,
+        "max": 60
+    },
+    "public_transportation": 100,
+    "gasoline_per_gallon": 4.50,
+    "average_meal_price": {
+        "min": 20,
+        "max": 40
+    }
+}
+
+CarlsbadCA = {
+    "average_income": {
+        "per_capita_income": 80088,
+        "median_household_income": 139326
+    },
+    "housing_costs": {
+        "average_apartment_rent": 3182,
+        "average_house_rent": 4150,
+    },
+    "food_costs": {
+        "eggs_dozen": 1.19,
+        "steak_0_15kg": 2.15,
+        "milk_0_10kg": 1.30,
+        "beer_0_33liter": {"min": 2.00, "max": 5.00}
+    },
+    "dining_out": {"min": 15.00, "max": 30.00},
+    "gym_membership": 15.00,
+    "public_transportation": {
+        "bus_fare": 2.50,
+        "train_fare": 5.00
+    },
+    "gasoline_per_gallon": 4.49
+}
+
+BurbankCA = {
+    "average_income": "n/a",
+    "housing_costs": {
+        "average_rent": 2695,
+        "rent_by_size": {
+            "studio": 1914,
+            "one_bedroom": 2153,
+            "two_bedroom": 2867,
+            "three_bedroom": 4974,
+            "four_bedroom": 7869
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8.00, "max": 12.00}
+    },
+    "dining_out": {"min": 15.00, "max": 25.00},
+    "gym_membership": {"min": 30.00, "max": 100.00},
+    "public_transportation": {"min": 1.75, "max": 2.50},
+    "gasoline_per_gallon": {"min": 4.50, "max": 5.50}
+}
+
+WestminsterCA = {
+    "average_income": {
+        "median_household_income": 82686,
+        "per_capita_income": 34477
+    },
+    "housing_costs": {
+        "average_rent": 2389,
+        "rent_by_size": {
+            "n/a": "n/a"
+        },
+        "average_rent_house": {"min": 650, "max": 8600}
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": 49.00,
+    "public_transportation": {
+        "cash_fare": 2.00,
+        "one_day_pass": 5.00,
+        "30_day_pass": 69.00
+    },
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+BrocktonMA = {
+    "average_income": 44800,
+    "housing_costs": {
+        "average_rent_apartment": 1800,
+        "average_rent_house": 2500
+    },
+    "food_costs": {
+        "eggs_dozen": 1.50,
+        "steak_per_pound": {"min": 8.00, "max": 10.00},
+        "milk_1gal": {"min": 2.50, "max": 3.00},
+        "beer_6pack": {"min": 10.00, "max": 12.00}
+    },
+    "dining_out_per_person": {"min": 15.00, "max": 20.00},
+    "gym_membership": {"min": 30.00, "max": 50.00},
+    "public_transportation_per_ride": 2.00,
+    "public_transportation_monthly_pass": 90.00,
+    "gasoline_per_gallon": 2.75
+}
+
+VisaliaCA = {
+    "average_income": 54000,
+    "housing_costs": {
+        "average_rent_apartment": 1200,
+        "average_rent_house": 1800
+    },
+    "food_costs": {
+        "eggs_dozen": 1.80,
+        "steak_1lb": 8.00,
+        "milk_1gal": 3.50,
+        "beer_6pack": 9.00
+    },
+    "gym_membership": {"min": 30.00, "max": 50.00},
+    "public_transportation_monthly_pass": 60.00,
+    "gasoline_per_gallon": 3.50,
+    "average_meal_price": 15.00
+}
+
+CostaMesaCA = {
+    "average_income": {
+        "median_household_income": 110073
+    },
+    "housing_costs": {
+        "average_rent": 2816,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+DowneyCA = {
+    "average_income": {
+        "median_household_income": 87400
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2252,
+        "average_rent_house": {"min": 750, "max": 9750}
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+MiamiGardensFL = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": 2009,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.90, "max": 6.00},
+        "steak_1lb_ribeye": {"min": 4.08, "max": 15.00},
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a",
+        "beer_1_pint_draught": {"min": 5.00, "max": 10.00}
+    },
+    "gym_membership": 71.34,
+    "public_transportation": {
+        "one_way_ticket": 2.25,
+        "monthly_pass": 103.75
+    },
+    "gasoline_per_gallon": 3.47,
+    "average_meal_price": {
+        "inexpensive_restaurant": {"min": 15.00, "max": 40.00},
+        "mid_range_restaurant_meal_for_two": 107.50
+    }
+}
+
+ElCajonCA = {
+    "average_income": 86068,
+    "housing_costs": {
+        "average_rent_apartment": 2266,
+        "average_rent_house": 2312
+    },
+    "food_costs": {
+        "eggs_dozen": 0.99,
+        "beef_round_0.10kg": 1.73,
+        "beer": 8.00
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 4.20,
+    "average_meal_price": "n/a"
+}
+
+SanMateoCA = {
+    "average_income": {
+        "median_household_income": 152669
+    },
+    "housing_costs": {
+        "apartments": {
+            "average_rent": 3445,
+            "rent_by_size": {
+                "studio": 2464,
+                "one_bedroom": 2882,
+                "two_bedroom": 3752,
+                "three_bedroom": 5043
+            }
+        },
+        "houses": {
+            "average_rent_range": {"min": 1100, "max": 9975},
+            "average_rent": 3250
+        }
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": {"min": 15, "max": 30},
+        "milk_1gal": {"min": 3, "max": 4},
+        "beer_pint_at_bar": {"min": 7, "max": 10}
+    },
+    "dining_out": {
+        "brunch_lunch_per_person": {"min": 20, "max": 30},
+        "dinner_per_person": {"min": 30, "max": 45}
+    },
+    "gym_membership": {"min": 50, "max": 150},
+    "public_transportation": {"monthly_pass": {"min": 100, "max": 150}},
+    "gasoline_per_gallon": 4.58
+}
+
+SandySpringsGA = {
+    "average_income": 73000,
+    "housing_costs": {
+        "average_rent_apartment": 1400,
+        "average_rent_house": 1800
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 8, "max": 12},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8, "max": 12}
+    },
+    "gym_membership": {"min": 30, "max": 60},
+    "public_transportation_single_fare": 2.50,
+    "public_transportation_monthly_pass": {"min": 95, "max": 100},
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00},
+    "average_meal_price": {"min": 15, "max": 30}
+}
+
+NorthHempsteadNY = {
+    "average_income": {
+        "median_household_income": 138316
+    },
+    "housing_costs": {
+        "average_rent_apartment": 4575,
+        "average_rent_house": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_per_pound": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": {
+        "annual_fee_range": {"min": 49, "max": 69}
+    },
+    "public_transportation": 2.90,
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+LansingMI = {
+    "average_income": {
+        "average_household_income": 64509
+    },
+    "housing_costs": {
+        "average_rent": 1171,
+        "rent_by_size": {
+            "studio": 858,
+            "two_bedroom": 1186
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 4.15,
+        "steak_1lb_ribeye": "n/a",
+        "milk_1gal": "n/a",
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": 10.00,
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+DalyCityCA = {
+    "average_income": {
+        "average_salary": 83000,
+    },
+    "housing_costs": {
+        "average_rent_one_bedroom": 2500,
+        "average_rent_three_bedroom_house": 4500,
+    },
+    "food_costs": {
+        "eggs_dozen": 1.80,
+        "steak_per_pound": 8.50,
+        "milk_per_gallon": 2.50,
+        "beer_six_pack": 10
+    },
+    "dining_out": 15.00,
+    "gym_membership": 40.00,
+    "public_transportation_monthly_pass": 90.00,
+    "gasoline_per_gallon": 3.50
+}
+
+RialtoCA = {
+    "average_income": {
+        "median_household_income": 85521
+    },
+    "housing_costs": {
+        "average_rent": 1976,
+        "average_apartment_size_sqft": 844,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+ElMonteCA = {
+    "average_income": {
+        "median_household_income": 64484
+    },
+    "housing_costs": {
+        "median_rent": 2095,
+        "rent_by_size": {
+            "one_bedroom": 1772,
+            "two_bedroom": 2157
+        },
+        "house_rent": 3700
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+ElizabethNJ = {
+    "average_income": {
+        "median_household_income": 43770
+    },
+    "housing_costs": {
+        "average_rent": 1849,
+        "rent_by_size": "n/a",
+        "housing_costs_vs_national_average": "38.4% more expensive"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": {
+        "monthly_nj_transit_pass": 154
+    },
+    "gasoline_per_gallon": 3.25,
+    "average_meal_price": "n/a"
+}
+
+SouthBendIN = {
+    "average_income": "n/a",
+    "housing_costs": {
+        "average_rent": 1272,
+        "rent_by_neighborhood": {
+            "Howard Park - East Bank": 1701,
+            "Council Oak": 1077
+        },
+        "average_house_rent": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+VacavilleCA = {
+    "average_income": {
+        "median_household_income": 82513
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2264,
+        "average_rent_house": {"min": 800, "max": 6500}
+    },
+    "food_costs": {
+        "eggs_dozen": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+WestJordanUT = {
+    "average_income": {
+        "median_household_income": 103960
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1612,
+        "average_rent_house": 2150
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 8.00, "max": 12.00},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 10.00, "max": 15.00}
+    },
+    "gym_membership": {"min": 30, "max": 60},
+    "public_transportation": {"per_ride": {"min":2, "max": 5}, "monthly_pass": {"min": 60, "max": 100}},
+    "gasoline_per_gallon": {"min": 3.00, "max": 3.50},
+    "average_meal_price": {"min": 15, "max": 25}
+}
+
+WaterburyCT = {
+    "average_income": 44233,
+    "housing_costs": {
+        "average_rent_apartment": 1243,
+        "average_rent_house": 1743
+    },
+    "food_costs": {
+        "eggs_dozen": 1.73,
+        "steak_1lb": 8.09,
+        "milk_1gal": 2.69,
+        "beer_6pack": 10.28
+    },
+    "dining_out": 15,
+    "gym_membership": 43.33,
+    "public_transportation": {
+        "per_ride": 2,
+        "monthly_pass": 60
+    },
+    "gasoline_per_gallon": 2.85
+}
+
+DavenportIA = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": 878,
+        "rent_by_size": {
+            "studio": 822,
+            "one_bedroom": 878,
+            "two_bedroom": 1026,
+            "three_bedroom": 1663
+        },
+        "average_house_rent": {"min": 375, "max": 2800}
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+RosevilleCA = {
+    "average_income": {
+        "median_income": 68273
+    },
+    "housing_costs": {
+        "average_rent": 2294,
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": {"min": 30, "max": 100},
+    "public_transportation": {"min": 100, "max": 150},
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": {"min": 15, "max": 75}
+}
+
+ThorntonCO = {
+    "average_income": {
+        "median_household_income": 100985
+    },
+    "housing_costs": {
+        "apartment_rent": 1870,
+        "house_rent": {
+            "min": 720,
+            "max": 5908,
+            "average": 2450
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 0.94,
+        "steak_beef_round_0.15kg": 2.81,
+        "milk_1gal": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": {
+        "basic_enrollment": 99,
+        "fitness_enrollment": 49,
+        "studio_enrollment": 49
+    },
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 3.29,
+    "average_meal_price": "n/a"
+}
+
+AlhambraCA = {
+    "average_income": {
+        "required_yearly_income": 63360,
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2692,
+        "average_rent_house": 2345
+    },
+    "food_costs": {
+        "average_meal_price": 30.00
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": 30.00
+}
+
+
+BeaumontTX = {
+    "average_income": {
+        "average_household_income": 77970,
+        "median_household_income": 53745
+    },
+    "housing_costs": {
+        "average_rent_apartment": 908,
+        "rent_by_size": {
+            "studio": 676,
+            "one_bedroom": 908,
+            "two_bedroom": 1137,
+            "three_bedroom": 1433
+        },
+        "average_rent_house": 1250
+    },
+    "food_costs": {
+        "eggs_dozen": 4.15,
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": 15.00,
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 2.73,
+    "average_meal_price": "n/a"
+}
+
+LeesSummitMO = {
+    "average_income": {
+        "median_household_income": "100000-120000"
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1517,
+        "average_rent_house": 2095
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_lb": {"min": 8, "max": 12},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8, "max": 10}
+    },
+    "gym_membership": {"min": 30, "max": 50},
+    "public_transportation": "negligible",
+    "gasoline_per_gallon": {"min": 2.75, "max": 3.25},
+    "average_meal_price": {"min": 15, "max": 25}
+}
+
+AllentownPA = {
+    "average_income": {
+        "household_median_income": 52449,
+        "male_median_income": 30426,
+        "female_median_income": 23882
+    },
+    "housing_costs": {
+        "average_rent": 1612,
+        "average_apartment_size": 835,
+        "rent_by_neighborhood": {
+            "westbrook_park": 1404
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_per_pound": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+SurpriseAZ = {
+    "average_income": {
+        "average_household_income": 71092
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1738,
+        "average_rent_house": {
+            "min": 850,
+            "max": 7500,
+            "median": 2110
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 6.99,
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+ClarksvilleTN = {
+    "average_income": 43632,
+    "housing_costs": {
+        "average_rent_apartment": 1091,
+        "rent_by_size": {
+            "studio": 915,
+            "three_bedroom": 1506
+        },
+        "average_rent_house": 1595
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 6.00, "max": 8.00},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8.00, "max": 12.00}
+    },
+    "gym_membership": {"min": 20, "max": 50},
+    "public_transportation": {"monthly_pass": {"min": 30, "max": 40}},
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00},
+    "average_meal_price": {"min": 10, "max": 15}
+}
+
+AbileneTX = {
+    "average_income": 44000,
+    "housing_costs": {
+        "average_rent_apartment": {
+            "one_bedroom": 700,
+            "three_bedroom": {"min": 900, "max": 1000}
+        },
+        "average_rent_house": {"min": 1000, "max": 1300}
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.00},
+        "steak_1lb": {"min": 8.00, "max": 15.00},
+        "milk_1gal": {"min": 2.50, "max": 3.00},
+        "beer_6pack": {"min": 8.00, "max": 10.00}
+    },
+    "dining_out": {"average_meal_price": {"min": 10.00, "max": 15.00}},
+    "gym_membership": {"min": 30.00, "max": 50.00},
+    "public_transportation": {
+        "fare_per_ride": {"min": 1.00, "max": 2.00},
+        "monthly_pass": {"min": 40.00, "max": 60.00}
+    },
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00}
+}
+
+RoundRockTX = {
+    "average_income": {
+        "per_capita_income": 30605
+    },
+    "housing_costs": {
+        "average_rent": 1446
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 3.71, "max": 5.25},
+        "beef_steak_1lb": {"min": 6.66, "max": 11.67},
+        "milk_1gal": {"min": 4.03, "max": 5.00},
+        "domestic_beer_1_pint_draught": {"min": 7.00, "max": 9.00}
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": 20.00,
+        "meal_for_2_mid_range_restaurant": 75.00,
+        "mcmeal_at_mcdonalds": 12.00
+    },
+    "gym_membership": {"average": 38.00, "min": 13, "max": 63},
+    "public_transportation": 3.00,
+    "gasoline_per_gallon": {"average": 2.98, "min": 2.51, "max": 3.75}
+}
+
+AmarilloTX = {
+    "average_income": {
+        "average_household_income": 52941
+    },
+    "housing_costs": {
+        "average_rent": 965,
+        "average_rent_house": 1275,
+        "rent_range_house": {"min": 450, "max": 3799}
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.89, "max": 7.00, "average": 4.43},
+        "steak_1lb": {"min": 5.62, "max": 8.24, "average": 7.65},
+        "milk_1gal": {"min": 3.00, "max": 5.24, "average": 4.15},
+        "beer_1pint_draft": {"min": 3.00, "max": 6.00, "average": 3.50}
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": 15.00,
+        "meal_for_two_midrange": 67.50
+    },
+    "gym_membership": 20.00,
+    "public_transportation": 1.00,
+    "gasoline_per_gallon": 2.79
+}
+
+NorthLasVegasNV = {
+    "average_income": {
+        "median_income": 46057
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1561,
+        "average_rent_house": 2100
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 3.00},
+        "steak_1lb": {"min": 7.54, "max": 10.00},
+        "milk_1gal": {"min": 2.73, "max": 5.00},
+        "domestic_beer_1pint_draught": {"min": 4.00, "max": 10.00}
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": {"min": 15.00, "max": 40.00},
+        "meal_for_2_mid_range_restaurant": {"min": 50.00, "max": 120.00},
+        "mcmeal_mcdonalds": {"min": 11.00, "max": 15.00}
+    },
+    "gym_membership": 23.27,
+    "public_transportation": {
+        "one_way_ticket": {"min": 2.00, "max": 5.00},
+        "monthly_pass": {"min": 40.00, "max": 65.00}
+    },
+    "gasoline_per_gallon": 4.06
+}
+
+LansingMI = {
+    "average_income": {
+        "median_household_income": 52170
+    },
+    "housing_costs": {
+        "average_rent": 975,
+        "rent_by_size": {
+            "studio": 858,
+            "one_bedroom": 975,
+            "two_bedroom": 1186,
+            "three_bedroom": 1439
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 4.15,
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+MidlandTX = {
+    "average_income": {
+        "per_capita_income": 143469,
+    },
+    "housing_costs": {
+        "apartment_rent": {
+            "1_bedroom": 1208,
+            "2_bedroom": 1582
+        },
+        "house_rent": 2600
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk_1gal": 4.25,
+        "beer_0.5liter": 1.73
+    },
+    "gym_membership": "n/a",
+    "public_transportation": 1.25,
+    "gasoline_per_gallon": {"min": 2.54, "max": 3.09},
+    "average_meal_price": 16.00
+}
+
+PalmdaleCA = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": 1817,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 2.00, "max": 4.00},
+        "steak_1lb_ribeye": {"min": 10.00, "max": 15.00},
+        "milk_1gal": {"min": 3.00, "max": 4.00},
+        "beer_6pack": {"min": 8.00, "max": 12.00}
+    },
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": {"min": 90.00, "max": 100.00},
+    "gasoline_per_gallon": {"min": 4.00, "max": 5.00},
+    "average_meal_price": {"min": 15.00, "max": 30.00}
+}
+
+SpringfieldMO = {
+    "average_income": {
+        "median_income": 29563
+    },
+    "housing_costs": {
+        "apartment_rent": 1149,
+        "rent_by_size": {
+            "one_bedroom": 941,
+            "two_bedroom": 1170
+        },
+        "house_rent": 1595
+    },
+    "food_costs": {
+        "milk_1gal": 3.96,
+        "eggs_dozen": "n/a",
+        "steak_1lb_ribeye": "n/a",
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+PasadenaTX = {
+    "average_income": 48000,
+    "housing_costs": {
+        "average_rent_apartment": {"min": 800, "max": 1200},
+        "average_rent_house": {"min": 1200, "max": 1800}
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.00},
+        "steak_1lb": {"min": 8.00, "max": 10.00},
+        "milk_1gal": {"min": 2.50, "max": 3.00},
+        "beer_6pack": {"min": 8.00, "max": 10.00}
+    },
+    "dining_out": {"min": 12.00, "max": 15.00},
+    "gym_membership": {"min": 30.00, "max": 50.00},
+    "public_transportation": {"min": 40.00, "max": 50.00},
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00}
+}
+
+MaconGA = {
+    "average_income": {
+        "median_household_income": 28366,
+        "male_median_income": 34163,
+        "female_median_income": 28082
+    },
+    "housing_costs": {
+        "average_rent": 1191,
+        "average_rent_house": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 4.95,
+        "steak_1lb_beef_round": {"min": 3.54, "max": 20.00},
+        "milk_1gal": 3.20,
+        "beer_pint_draught": {"min": 3.00, "max": 15.00}
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": 3.01,
+    "average_meal_price": {
+        "inexpensive_restaurant": 13.50,
+        "mid_range_restaurant_for_two": 60.00
+    }
+}
+
+PomonaCA = {
+    "average_income": {
+        "median_household_income": 49474
+    },
+    "housing_costs": {
+        "average_rent": 2293,
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+EscondidoCA = {
+    "average_income": {
+        "median_household_income": 84477
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2274,
+        "average_rent_house": 4050
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": {"min": 15, "max": 30},
+        "milk_1gal": {"min": 3, "max": 4},
+        "beer_6pack": {"min": 8, "max": 12}
+    },
+    "gym_membership": {"LA Fitness": {"min": 30, "max": 60}},
+    "public_transportation": {"regional_bus": 2, "coaster_train": 5},
+    "gasoline_per_gallon": 5.50,
+    "average_meal_price": {"Stone Brewing World Bistro & Gardens": {"min": 15, "max": 30}}
+}
+
+DentonTX = {
+    "average_income": 48000,
+    "housing_costs": {
+        "average_rent_apartment": {"min": 900, "max": 1200},
+        "average_rent_house": {"min": 1200, "max": 1800}
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.00},
+        "steak_1lb": {"min": 8, "max": 15},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8, "max": 12}
+    },
+    "dining_out": {"min": 10, "max": 15},
+    "gym_membership": 30,
+    "public_transportation": 30,
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.00}
+}
+
+WacoTX = {
+    "average_income": {
+        "median_household_income": 51468,
+        "per_capita_income": 28819
+    },
+    "housing_costs": {
+        "average_rent": 1354,
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": {"min": 25, "max": 100}
+}
+
+JolietIL = {
+    "average_income": 54469,
+    "housing_costs": {
+        "average_rent_apartment": 1100,
+        "average_rent_house": 1500
+    },
+    "food_costs": {
+        "eggs_dozen": 1.50,
+        "steak_per_pound": 8.00,
+        "milk_1gal": 2.50,
+        "beer_6pack": 8.00
+    },
+    "dining_out": 15.00,
+    "gym_membership": 30.00,
+    "public_transportation": {
+        "per_ride": 2.00,
+        "monthly_pass": 65.00
+    },
+    "gasoline_per_gallon": 2.75
+}
+
+McAllenTX = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": 965,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_ribeye": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+BellevueWA = {
+    "average_income": {
+        "average_salary": "n/a",
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent": "n/a",
+        "rent_by_size": {
+            "studio": 2146,
+            "one_bedroom": 2468,
+            "two_bedroom": 3066,
+            "three_bedroom": 4065
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": "n/a",
+        "steak_1lb_ribeye": "n/a",
+        "milk_1gal": "n/a",
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+RockfordIL = {
+    "average_income": {
+        "median_household_income": 53328,
+        "per_capita_income": 30409
+    },
+    "housing_costs": {
+        "apartment_rent": {
+            "studio": 848,
+            "one_bedroom": 947,
+            "two_bedroom": 1207
+        },
+        "house_rent": {
+            "min": 220,
+            "max": 6100,
+            "average": 1200
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 2.52,
+        "steak_1lb_sirloin": 10.69,
+        "milk_1gal": 3.96,
+        "beer_6pack": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+CarrolltonTX = {
+    "average_income": {
+        "median_household_income": 99115,
+        "per_capita_income": 50000
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1593,
+        "average_rent_house": 2995
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline": "n/a",
+    "average_meal_price": "n/a"
+}
+
+GrandPrairieTX = {
+    "average_income": 54500,
+    "housing_costs": {
+        "average_rent_apartment": 1200,
+        "average_rent_house": 1800
+    },
+    "food_costs": {
+        "eggs_dozen": 1.50,
+        "steak_1lb": 8.00,
+        "milk_1gal": 2.50,
+        "beer": 5.00
+    },
+    "dining_out": 15.00,
+    "gym_membership": 30.00,
+    "public_transportation": 90.00,
+    "gasoline_per_gallon": 2.50
+}
+
+ColumbiaSC = {
+    "average_income": "n/a",
+    "housing_costs": {
+        "average_rent_apartment": 1434,
+        "average_rent_house": 1700,
+        "rent_by_neighborhood": {
+            "Colonial Park": 947,
+            "Arthurtown": 2506,
+            "Downtown Columbia": 2345
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 5.00, "max": 8.79},
+        "steak_ground_beef_1lb": 8.59,
+        "milk_1gal": 3.99,
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a"
+}
+
+MiramarFL = {
+    "average_income": {
+        "median_household_income": 86109
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2653,
+        "average_rent_house": 2850
+    },
+    "food_costs": {
+        "eggs": "n/a",
+        "steak": "n/a",
+        "milk": "n/a",
+        "beer": "n/a"
+    },
+    "gym_membership": "n/a",
+    "public_transportation": "n/a",
+    "gasoline_per_gallon": "n/a",
+    "average_meal_price": "n/a",
+    "most_affordable_neighborhoods": {
+        "University Park": 2059,
+        "Promanade at Miramar": 2768
+    }
+}
+
+ChulaVistaCA = {
+    "average_income": {
+        "median_household_income": 105173
+    },
+    "housing_costs": {
+        "average_rent_apartment": 2595,
+        "average_rent_house": 3819
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 4.96, "max": 8.00},
+        "steak_1lb": {"min": 8.14, "max": 12.49},
+        "milk_1gal": {"min": 4.67, "max": 6.00},
+        "beer_1_pint_draught": {"min": 8.00, "max": 12.00}
+    },
+    "dining_out":{
+        "meal_inexpensive_restaurant": {"min": 15.00, "max": 50.00},
+        "meal_for_2_people_mid_range_restaurant": {"min": 60.00, "max": 155.00},
+        "mcmeal_at_mcdonalds": {"min": 9.95, "max": 15.00}
+    },
+    "gym_membership": 20.00,
+    "public_transportation": {
+        "one_way_ticket": 2.50,
+        "monthly_pass": 72.00
+    },
+    "gasoline_per_gallon": {"min": 4.30, "max": 5.99}
+}
+
+SiouxFallsSD = {
+    "average_income": {
+        "average_household_income": 95726,
+        "median_household_income": 71785
+    },
+    "housing_costs": {
+        "average_apartment_rent": 1107,
+        "average_house_rent": 1150,
+        "rent_by_size": {
+            "studio": 873,
+            "one_bedroom": 952,
+            "two_bedroom": 1145
+        }
+    },
+    "food_costs": {
+        "eggs_dozen": 4.59,
+        "local_cheese_1lb": 5.75,
+        "chicken_fillets_1lb": 5.33,
+        "beef_round_1lb": 5.99
+    },
+    "dining_out": "n/a",
+    "gym_membership": {
+        "single_adult": 39,
+        "couple_family": 49
+    },
+    "public_transportation": 1.50,
+    "gasoline_per_gallon": 2.973,
+    "average_meal_price": "n/a"
+}
+
+PortStLucieFL = {
+    "average_income": {
+        "household_income_2000": 40509,
+        "per_capita_income_2000": 18059
+    },
+    "housing_costs": {
+        "average_rent": 2120
+    },
+    "food_costs": {
+        "eggs_12": 4.49,
+        "beef_steak_1lb": 7.66,
+        "milk_1gal": 4.55,
+        "domestic_beer_1pint": 6.50
+    },
+    "dining_out": {
+        "meal_inexpensive_restaurant": 20.00,
+        "meal_for_2_mid_range": 85.43
+    },
+    "gym_membership": 35.00,
+    "public_transportation": 90.00,
+    "gasoline_per_gallon": 3.32
+}
+
+NorthCharlestonSC = {
+    "average_income": 43000,
+    "housing_costs": {
+        "average_rent_apartment": 1100,
+        "average_rent_house": 1300
+    },
+    "food_costs": {
+        "eggs_dozen": 1.50,
+        "steak_1lb": 7.00,
+        "milk_1gal": 2.50,
+        "beer_6pack": 8.00
+    },
+    "gym_membership": {"min": 30, "max": 50},
+    "public_transportation_monthly_pass": 60,
+    "gasoline_per_gallon": 2.50,
+    "average_meal_price": 15.00
+}
+
+NapervilleIL = {
+    "average_income": {
+        "average_salary": 76000,
+        "median_salary": "n/a"
+    },
+    "housing_costs": {
+        "average_rent_apartment": 1300,
+        "average_rent_house": 2000,
+        "rent_by_size": "n/a"
+    },
+    "food_costs": {
+        "eggs_dozen": 1.50,
+        "steak_1lb": 7.00,
+        "milk_1gal": 2.50,
+        "beer_6pack": 8.00
+    },
+    "gym_membership": 60.00,
+    "public_transportation_monthly_pass": 90.00,
+    "gasoline_per_gallon": 2.50,
+    "average_meal_price": 15.00
+}
+
+OverlandParkKS = {
+    "average_income": {
+        "median_household_income": 103838
+    },
+    "housing_costs": {
+        "average_rent_apartment": {
+            "studio": 1278,
+            "one_bedroom": 1306,
+            "two_bedroom": 1639,
+            "three_bedroom": 2018
+        },
+        "average_rent_house": 2470
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_1lb": {"min": 8.00, "max": 12.00},
+        "milk_1gal": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 10.00, "max": 15.00}
+    },
+    "gym_membership": {"min": 30.00, "max": 60.00},
+    "public_transportation": 1.50,
+    "gasoline_per_gallon": {"min": 2.75, "max": 3.25},
+    "average_meal_price": {"min": 15.00, "max": 25.00}
+}
+
+SantaClaritaCA = {
+    "average_income": {
+        "median_household_income": 82607
+    },
+    "housing_costs": {
+        "average_rent": 2572,
+    },
+    "food_costs": {
+        "milk_1gal": 3.96,
+    },
+    "gym_membership": {
+        "range": {"min": 30, "max": 60}
+    },
+    "public_transportation": 2.00,
+    "gasoline_per_gallon": 4.50,
+    "average_meal_price": {
+        "range": {"min": 15, "max": 30}
+    }
+}
+
+CaryNC = {
+    "average_income": 83000,
+    "housing_costs": {
+        "one_bedroom_rent": {"min": 1200, "max": 1500},
+        "three_bedroom_rent": {"min": 1800, "max": 2500}
+    },
+    "food_costs": {
+        "eggs_dozen": {"min": 1.50, "max": 2.50},
+        "steak_per_pound": {"min": 8, "max": 12},
+        "milk_per_gallon": {"min": 2.50, "max": 3.50},
+        "beer_6pack": {"min": 8, "max": 12}
+    },
+    "dining_out": {"min": 15, "max": 25},
+    "gym_membership": {"min": 30, "max": 50},
+    "public_transportation": {
+        "per_ride": 2,
+        "monthly_pass": {"min": 60, "max": 80}
+    },
+    "gasoline_per_gallon": {"min": 2.50, "max": 3.50}
+}
